@@ -1,7 +1,11 @@
 package com.swebench.model;
 
-import java.util.List;
+import lombok.Data;
+import lombok.Getter;
 
+import java.util.List;
+@Getter
+@Data
 public class AgentResult {
     private boolean solved;
     private List<String> patches;
