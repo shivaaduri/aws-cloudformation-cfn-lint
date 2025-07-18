@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aws-cfn-lint-java" />
+        <module name="java-swe-bench" />
       </profile>
     </annotationProcessing>
   </component>
